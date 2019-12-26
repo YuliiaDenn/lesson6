@@ -15,6 +15,21 @@ public class Main {
 		System.out.println(stack.pop());
 		System.out.println(stack.pop());
 		System.out.println(stack.pop());
+		System.out.println();
+		
+		MyQueue queue = new MyQueue();
+		
+		queue.push(23);
+		queue.push(24);
+		queue.push(25);
+		queue.push(26);
+		
+		System.out.println(queue.pop());
+		System.out.println(queue.pop());
+		System.out.println(queue.pop());
+		System.out.println(queue.pop());
+		
+		
 
 	}
 

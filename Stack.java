@@ -15,7 +15,7 @@ public class Stack {
 
 	public int pop() {
 		
-		return list.pop();
+		return list.pollLast();
 		
 	}
 }
