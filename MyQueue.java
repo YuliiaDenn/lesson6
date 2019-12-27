@@ -7,11 +7,11 @@ public class MyQueue<T> {
 
 	private Queue<T> queue = new LinkedList<>();
 
-	public void push(T data) {
+	public void add(T data) {
 		queue.add(data);
 	}
 
-	public T pop() {
+	public T get() {
 		return queue.poll();
 	}
 

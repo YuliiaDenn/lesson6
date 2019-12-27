@@ -32,28 +32,28 @@ public class Main {
 
 		MyQueue<Integer> queue = new MyQueue<Integer>();
 
-		queue.push(23);
-		queue.push(24);
-		queue.push(25);
-		queue.push(26);
+		queue.add(23);
+		queue.add(24);
+		queue.add(25);
+		queue.add(26);
 
-		System.out.println(queue.pop());
-		System.out.println(queue.pop());
-		System.out.println(queue.pop());
-		System.out.println(queue.pop());
+		System.out.println(queue.get());
+		System.out.println(queue.get());
+		System.out.println(queue.get());
+		System.out.println(queue.get());
 		System.out.println();
 
 		MyQueue<String> queueS = new MyQueue<String>();
 
-		queueS.push("black");
-		queueS.push("yellow");
-		queueS.push("pink");
-		queueS.push("grey");
+		queueS.add("black");
+		queueS.add("yellow");
+		queueS.add("pink");
+		queueS.add("grey");
 
-		System.out.println(queueS.pop());
-		System.out.println(queueS.pop());
-		System.out.println(queueS.pop());
-		System.out.println(queueS.pop());
+		System.out.println(queueS.get());
+		System.out.println(queueS.get());
+		System.out.println(queueS.get());
+		System.out.println(queueS.get());
 		System.out.println();
 
 	}
