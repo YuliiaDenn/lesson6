@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Stack stack = new Stack();
+		Stack<Integer> stack = new Stack<>();
 
 		stack.push(5);
 		stack.push(13);
@@ -17,20 +17,20 @@ public class Main {
 		System.out.println(stack.pop());
 		System.out.println();
 
-		Stack stackS = new Stack();
+		Stack<String> stackS = new Stack<>();
 
 		stackS.push("red");
 		stackS.push("blue");
 		stackS.push("green");
 		stackS.push("white");
 
-		System.out.println(stackS.popS());
-		System.out.println(stackS.popS());
-		System.out.println(stackS.popS());
-		System.out.println(stackS.popS());
+		System.out.println(stackS.pop());
+		System.out.println(stackS.pop());
+		System.out.println(stackS.pop());
+		System.out.println(stackS.pop());
 		System.out.println();
 
-		MyQueue queue = new MyQueue();
+		MyQueue<Integer> queue = new MyQueue<Integer>();
 
 		queue.push(23);
 		queue.push(24);
@@ -43,17 +43,17 @@ public class Main {
 		System.out.println(queue.pop());
 		System.out.println();
 
-		MyQueue queueS = new MyQueue();
+		MyQueue<String> queueS = new MyQueue<String>();
 
 		queueS.push("black");
 		queueS.push("yellow");
 		queueS.push("pink");
 		queueS.push("grey");
 
-		System.out.println(queueS.popS());
-		System.out.println(queueS.popS());
-		System.out.println(queueS.popS());
-		System.out.println(queueS.popS());
+		System.out.println(queueS.pop());
+		System.out.println(queueS.pop());
+		System.out.println(queueS.pop());
+		System.out.println(queueS.pop());
 		System.out.println();
 
 	}
